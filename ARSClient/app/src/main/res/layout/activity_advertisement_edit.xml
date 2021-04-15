@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.advertisement.AdvertisementEditActivity">
+
+    <ImageView
+        android:id="@+id/imageView_edit_full_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/description_full_screen"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollView_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <include
+                android:id="@+id/layout_edit_advertisement"
+                layout="@layout/layout_advertisement_prototype" />
+
+            <Button
+                android:id="@+id/button_edit_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_edit_advertisement"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="48dp"
+                android:onClick="onSaveClicked"
+                android:text="@string/button_save" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

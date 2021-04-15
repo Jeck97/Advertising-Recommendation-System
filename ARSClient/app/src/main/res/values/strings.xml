@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">ARS Client</string>
+
+    <string name="activity_name_advertisement_upload">Upload Advertisement</string>
+    <string name="activity_name_advertisement_edit">Edit Advertisement</string>
+    <string name="activity_name_subscription_plans">Subscription Plans</string>
+    <string name="activity_name_subscription_payment">Purchase Detail</string>
+    <string name="activity_name_profile_edit">Edit Profile</string>
+    <string name="activity_name_profile_photo">Edit Store Photo</string>
+
+    <string name="description_client_logo">ApplicationLogo</string>
+    <string name="description_location_marker">Focus to marked location</string>
+    <string name="description_upload_advertisement">Upload a new advertisement</string>
+    <string name="description_add_image_icon">Icon for adding image</string>
+    <string name="description_selected_image">Selected image to upload</string>
+    <string name="description_close_button">Close button to remove selected image</string>
+    <string name="description_full_screen">Display full screen image</string>
+    <string name="description_image_cover">Cover image of advertisement</string>
+    <string name="description_left_chevron">Left chevron to decrease date</string>
+    <string name="description_right_chevron">Right chevron to decrease date</string>
+    <string name="description_list_status">Color of advertisement\'s status</string>
+    <string name="description_status_of_current_plan">Status of current plan</string>
+    <string name="description_view_plan_icon">Click to view all subscription plans</string>
+    <string name="description_profile_logo">Client profile logo</string>
+    <string name="description_profile_photo">Client store photo</string>
+
+    <string name="hint_email_address">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirm">Confirm password</string>
+    <string name="hint_store_name">Store name</string>
+    <string name="hint_select_location">Please select your store location</string>
+    <string name="hint_advertisement_title">Title</string>
+    <string name="hint_advertisement_description">Description</string>
+    <string name="hint_add_categories">Please add your advertisement categories</string>
+    <string name="hint_add_images">Please add your advertisement images</string>
+    <string name="hint_select_image_cover">Select a image as the cover</string>
+    <string name="hint_select_date">Please select date to post</string>
+    <string name="hint_password_current">Current password</string>
+    <string name="hint_password_new">New password</string>
+    <string name="hint_email_address_new">New email address</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_select">Select</string>
+    <string name="button_register">Register</string>
+    <string name="button_upload">Upload</string>
+    <string name="button_save">Save</string>
+    <string name="button_purchase">Purchase</string>
+
+    <string name="chip_add_category">Add category</string>
+
+    <string name="link_register_account"><u>Register Account</u></string>
+    <string name="link_forgot_password"><u>Forgot Password</u></string>
+
+    <string name="error_permission_dined">Location access permission dined</string>
+    <string name="error_input_required">This field is required</string>
+    <string name="error_format_email">Invalid email format</string>
+    <string name="error_minimum_password">Password must be at least 8 characters</string>
+    <string name="error_not_match_confirm_password">Password does not match with confirmed password</string>
+    <string name="error_duplicate_password">New password cannot be same with old password</string>
+
+    <string name="progress_registration">Registering…</string>
+    <string name="progress_login">Login…</string>
+    <string name="progress_send_validation_email">Sending email…</string>
+    <string name="progress_loading_images">Loading images…</string>
+    <string name="progress_upload_advertisement">Uploading advertisement…</string>
+    <string name="progress_initialize">Initializing…</string>
+    <string name="progress_update_advertisement">Updating advertisement…</string>
+    <string name="progress_process_payment">Processing payment…</string>
+    <string name="progress_update_email">Updating email…</string>
+    <string name="progress_update_password">Updating password…</string>
+    <string name="progress_update_profile">Updating profile…</string>
+    <string name="progress_delete_photo">Deleting photo…</string>
+    <string name="progress_add_photo">Adding photo…</string>
+
+    <string name="dialog_title_verification">Validation Email Sent</string>
+    <string name="dialog_message_verification">Email with a confirmation link had been sent to your email address. Please click the confirmation link to complete the verification.</string>
+    <string name="dialog_button_verify">Verify</string>
+    <string name="dialog_button_not_now">Not now</string>
+    <string name="dialog_title_reset_email">Reset Email</string>
+    <string name="dialog_title_reset_password">Reset Password</string>
+    <string name="dialog_button_send">Send</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_message_register_successful">Your account had been registered successful.</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_title_category">Please select the categories: </string>
+    <string name="dialog_message_upload_advertisement_successful">Your advertisement had been uploaded successful. Please wait at least three business days to verify your advertisement. </string>
+    <string name="dialog_message_update_advertisement_successful">Your advertisement had been updated successful.</string>
+    <string name="dialog_message_prompt_verify_email">Your email haven\'t been verified. Please verify your email at Profile first.</string>
+    <string name="dialog_message_logout_confirmation">Are you sure you want to logout?</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+    <string name="dialog_button_submit">Submit</string>
+    <string name="dialog_message_update_email_successful">Your email had been updated successful.</string>
+    <string name="dialog_message_update_password_successful">Your password had been updated successful.</string>
+    <string name="dialog_message_account_verified">Your account had been verified.</string>
+    <string name="dialog_message_profile_updated">Profile updated</string>
+    <string name="dialog_message_photos_updated">Store photos updated</string>
+    <string name="dialog_message_photo_delete_confirmation">Are you sure you want to delete this photo?</string>
+    <string name="dialog_message_advertisement_delete_confirmation">Are you sure you want to delete this advertisement?</string>
+    <string name="dialog_message_advertisement_deleted">Advertisement deleted</string>
+
+    <string name="bottom_navigation_advertisement">Advertisement</string>
+    <string name="bottom_navigation_statistic">Statistic</string>
+    <string name="bottom_navigation_subscription">Subscription</string>
+    <string name="bottom_navigation_profile">Profile</string>
+
+    <string name="toast_message_success_reset_password">Reset password email had been sent</string>
+
+    <string name="text_preview_advertisement_title">Title</string>
+    <string name="text_preview_advertisement_categories">Category 1, Category 2, Category 3</string>
+    <string name="text_preview_advertisement_category">Category</string>
+    <string name="text_preview_advertisement_status">Status</string>
+    <string name="text_preview_advertisement_liked_number">100</string>
+    <string name="text_preview_advertisement_uploaded_date">Uploaded on %s</string>
+    <string name="text_preview_advertisement_date_uploaded">Uploaded date</string>
+    <string name="text_preview_advertisement_date_posted">Posted date</string>
+    <string name="text_preview_advertisement_date_to_post">Date to post</string>
+    <string name="text_preview_advertisement_description">Description</string>
+    <string name="text_preview_statistic_date_filter">Date filter</string>
+    <string name="text_preview_statistic_period_start">Period start</string>
+    <string name="text_preview_statistic_period_end">Period end</string>
+    <string name="text_preview_statistic_symbol_date_until">~</string>
+    <string name="text_preview_subscription_no_subscription">No Subscription</string>
+    <string name="text_preview_subscription_expired">Subscription Expired</string>
+    <string name="text_preview_subscription_valid_duration">%1$s Left</string>
+    <string name="text_preview_subscription_warning_no_subscription">You are still not subscribe to any plan. Subscribe now to share your first advertisement.</string>
+    <string name="text_preview_subscription_warning_expired">Your subscription had expired. Please renew it to reactivate your advertisements.</string>
+    <string name="text_preview_subscription_warning_due_soon">Your subscription due soon. Please add on in time.</string>
+    <string name="text_preview_subscription_plan_name">Plan name</string>
+    <string name="text_preview_subscription_plan_duration">Duration</string>
+    <string name="text_preview_subscription_plan_duration_year">%1$d years </string>
+    <string name="text_preview_subscription_plan_duration_month">%1$d months </string>
+    <string name="text_preview_subscription_plan_duration_day">%1$d days </string>
+    <string name="text_preview_subscription_plan_price">Price</string>
+    <string name="text_preview_subscription_plan_price_placeholder">RM %1$.2f</string>
+    <string name="text_preview_subscription_my_subscription">My Subscription</string>
+    <string name="text_preview_subscription_valid_until_date">Valid until %1$s</string>
+    <string name="text_preview_subscription_plans">Subscription Plans</string>
+    <string name="text_preview_subscription_view_plan">View Plan</string>
+    <string name="text_preview_subscription_payment_history">Payment History</string>
+    <string name="text_preview_subscription_payment_label">Please confirm your purchase</string>
+    <string name="text_preview_subscription_payment_colon">:\u0020</string>
+    <string name="text_preview_profile_store_name">Store Name</string>
+    <string name="text_preview_profile_store_photo">Store Photo</string>
+    <string name="text_preview_profile_change_email">Change Email</string>
+    <string name="text_preview_profile_reset_password">Reset Password</string>
+    <string name="text_preview_profile_account_verification">Account Verification</string>
+    <string name="text_preview_profile_account_verification_status">Status</string>
+    <string name="text_preview_profile_status_completed">Completed</string>
+    <string name="text_preview_profile_status_unverified">Unverified</string>
+    <string name="text_preview_profile_logout">Logout</string>
+
+    <string name="advertisement_status_activated">Activated</string>
+    <string name="advertisement_status_expired">Expired</string>
+    <string name="advertisement_status_pending">Pending</string>
+    <string name="advertisement_status_rejected">Rejected</string>
+
+    <string name="menu_edit_advertisement">Edit</string>
+    <string name="menu_profile_item">Menu Item</string>
+    <string name="menu_delete_advertisement">Delete</string>
+
+    <string name="date_format_default">dd MMM yyyy</string>
+    <string name="date_format_month">MMM yyyy</string>
+    <string name="date_format_year">yyyy</string>
+
+    <string name="parse_format_payment_date">yyyy-MM-dd\'T\'HH:mm:ss\'Z\'</string>
+
+    <string name="bar_chart_advertisement_x_label">Advertisement</string>
+    <string name="bar_chart_advertisement_y_label">Number of likes</string>
+    <string name="bar_chart_advertisement_number">%1$d Advertisements</string>
+    <string name="description_edit_logo_button">Edit logo button</string>
+    <string name="hint_store_description">Store Description</string>
+    <string name="description_icon_delete">Icon delete</string>
+    <string name="description_icon_back">Icon back</string>
+
+</resources>

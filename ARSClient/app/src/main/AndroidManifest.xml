@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.utem.ftmk.ws2.arsclient">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".assistant.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ARSClient.NoActionBar">
+        <activity
+            android:name=".ui.main.profile.ProfilePhotoActivity"
+            android:label="@string/activity_name_profile_photo"
+            android:parentActivityName=".ui.main.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ARSClient" />
+        <activity
+            android:name=".ui.main.profile.ProfileEditActivity"
+            android:label="@string/activity_name_profile_edit"
+            android:parentActivityName=".ui.main.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ARSClient" />
+        <activity
+            android:name=".ui.main.subscription.SubscriptionPaymentActivity"
+            android:label="@string/activity_name_subscription_payment"
+            android:parentActivityName=".ui.main.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ARSClient" />
+        <activity
+            android:name=".ui.main.subscription.SubscriptionViewPlanActivity"
+            android:label="@string/activity_name_subscription_plans"
+            android:parentActivityName=".ui.main.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ARSClient" />
+        <activity
+            android:name=".ui.main.advertisement.AdvertisementEditActivity"
+            android:label="@string/activity_name_advertisement_edit"
+            android:parentActivityName=".ui.main.advertisement.AdvertisementDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ARSClient" />
+        <activity
+            android:name=".ui.main.advertisement.AdvertisementDetailActivity"
+            android:parentActivityName=".ui.main.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.advertisement.AdvertisementUploadActivity"
+            android:label="@string/activity_name_advertisement_upload"
+            android:parentActivityName=".ui.main.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ARSClient" />
+        <activity
+            android:name=".ui.main.HomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.SelectLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.authentication.RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.authentication.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

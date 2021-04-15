@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeMerchantActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/purple_500">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vp_merchant"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/indicator_merchant"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                android:id="@+id/tv_merchant_no_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:text="@string/text_no_image"
+                android:textColor="@color/white"
+                app:drawableTint="@color/white"
+                app:drawableTopCompat="@drawable/ic_no_image" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="12dp"
+                android:contentDescription="@string/description_button_back"
+                android:onClick="OnBackClick"
+                android:src="@drawable/ic_arrow_back"
+                app:tint="@color/white" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#618CBA"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="12dp"
+                app:cardCornerRadius="80dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="3dp">
+
+                <ImageView
+                    android:id="@+id/iv_merchant_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/description_merchant_profile"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_person_48" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tv_merchant_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/text_merchant_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textView_advertisement_detail"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/text_address"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_merchant_address"
+                    style="@style/textView_advertisement_detail"
+                    android:onClick="OnAddressClick"
+                    android:text="@string/text_address"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    app:drawableEndCompat="@drawable/ic_map" />
+
+                <TextView
+                    style="@style/textView_advertisement_detail"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/text_about"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_merchant_description"
+                    style="@style/textView_advertisement_detail"
+                    android:text="@string/text_no_description"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_merchant_full_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/description_full_screen_image"
+        android:visibility="gone" />
+
+</FrameLayout>

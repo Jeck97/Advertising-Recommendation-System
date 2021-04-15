@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E4E2"
+    android:orientation="vertical"
+    android:padding="48dp"
+    tools:context=".ui.auth.RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/description_auth_profile"
+        android:src="@drawable/image_login" />
+
+    <EditText
+        android:id="@+id/et_register_email"
+        style="@style/editText_authenticate_default"
+        android:autofillHints=""
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_register_username"
+        style="@style/editText_authenticate_default"
+        android:autofillHints=""
+        android:hint="@string/hint_username"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tv_register_dob"
+        style="@style/editText_authenticate_default"
+        android:layout_marginBottom="0dp"
+        android:onClick="onDobClick"
+        android:text="@string/hint_dob"
+        android:textColor="@color/hint"
+        android:textSize="18sp"
+        app:drawableEndCompat="@drawable/ic_date_picker"
+        app:drawableTint="@color/purple_500" />
+
+    <RadioGroup
+        android:id="@+id/rg_register_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rb_register_male"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RadioButton
+            android:id="@+id/rb_register_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_male" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_female" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_register_password"
+        style="@style/editText_authenticate_default"
+        android:autofillHints=""
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_register_password_confirm"
+        style="@style/editText_authenticate_default"
+        android:autofillHints=""
+        android:hint="@string/hint_password_confirm"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="onRegisterClick"
+        android:padding="12dp"
+        android:text="@string/button_register" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onSignInClick"
+        android:text="@string/link_sign_in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:textColor="#136AAF" />
+
+</LinearLayout>

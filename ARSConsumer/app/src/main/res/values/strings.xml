@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">ARS Consumer</string>
+
+    <string name="description_auth_profile">Login profile image</string>
+    <string name="description_consumer_profile">Consumer profile image</string>
+    <string name="description_advertisement_cover_image">Advertisement cover image</string>
+    <string name="description_location_marker">Focus to marked location</string>
+    <string name="description_sorting_advertisements">Sorting advertisements</string>
+    <string name="description_filtering_advertisements">Filtering advertisements</string>
+    <string name="description_full_screen_image">Full screen image</string>
+    <string name="description_merchant_profile">Merchant profile image</string>
+    <string name="description_button_back">Button back</string>
+    <string name="description_add_image">Icon add profile image</string>
+
+    <string name="text_login_title">Advertising Recommendation System</string>
+    <string name="text_number_of_like">100</string>
+    <string name="text_title">Title</string>
+    <string name="text_categories">Categories</string>
+    <string name="text_distance">Distance</string>
+    <string name="text_location">Location</string>
+    <string name="text_current_location">Current Location</string>
+    <string name="text_current_location_address">Current location address</string>
+    <string name="text_description">Description</string>
+    <string name="text_no_description">No description</string>
+    <string name="text_posted_on">Posted on</string>
+    <string name="text_merchant">Merchant</string>
+    <string name="text_merchant_name">Merchant name</string>
+
+    <string name="hint_email">Email Address</string>
+    <string name="hint_email_new">New Email Address</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_confirm">Confirm Password</string>
+    <string name="hint_password_current">Current Password</string>
+    <string name="hint_password_new">New Password</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="button_ok">OK</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_sort">Sort</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_filter">Filter</string>
+    <string name="button_clear_all">Clear All</string>
+    <string name="button_select">Select</string>
+    <string name="button_submit">Submit</string>
+
+    <string name="link_sign_up"><u>Sign up</u></string>
+    <string name="link_sign_in"><u>Sign in</u></string>
+
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+
+    <string name="error_field_required">This field is required.</string>
+    <string name="error_format_email">Invalid email format.</string>
+    <string name="error_minimum_password">Password must be at least 8 characters</string>
+    <string name="error_not_match_confirm_password">Password does not match with confirmed password</string>
+    <string name="error_duplicate_password">New password cannot be same with old password</string>
+    <string name="error_permission_dined">Location permission dined.</string>
+
+    <string name="progress_registration">Registering…</string>
+    <string name="progress_login">Login…</string>
+    <string name="progress_update">Updating…</string>
+
+    <string name="dialog_message_register_successful">Your account had been registered successfully. </string>
+    <string name="dialog_message_confirm_logout">Are you sure you want to logout?</string>
+    <string name="dialog_title_sorting">Sort By:</string>
+    <string name="dialog_title_filtering">Filter By:</string>
+    <string name="dialog_title_change_email">Change Email Address</string>
+    <string name="dialog_title_change_password">Change Password</string>
+
+    <string name="action_location">Set Location</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_history">History</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="placeholder_distance_far_away">%1$.2f km far away</string>
+    <string name="placeholder_posted_date">Posted on: %1$s</string>
+
+    <string name="text_no_image">No image</string>
+    <string name="text_address">Address</string>
+    <string name="text_about">About</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_change_email">Change email address</string>
+    <string name="text_change_password">Change password</string>
+    <string name="text_edit_profile">Edit Profile</string>
+    <string name="button_save">Save</string>
+    <string name="error_invalid_age">Your age must be greater than 12 years old</string>
+    <string name="message_email_updated">Email had been updated successful.</string>
+    <string name="message_password_updated">Password had been updated successful.</string>
+    <string name="message_profile_updated">Profile had been updated successful.</string>
+
+</resources>

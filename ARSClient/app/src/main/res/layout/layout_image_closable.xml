@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_selected_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/imageVieW_image_selected"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:contentDescription="@string/description_selected_image"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton_remove"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/shape_round"
+        android:contentDescription="@string/description_close_button"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_close" />
+
+    <ImageView
+        android:id="@+id/imageView_button_full_screen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#50adadad"
+        android:contentDescription="@string/description_close_button"
+        android:src="@drawable/ic_full_screen" />
+
+</RelativeLayout>

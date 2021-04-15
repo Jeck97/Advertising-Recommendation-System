@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.advertisement.AdvertisementUploadActivity">
+
+    <ImageView
+        android:id="@+id/imageView_upload_full_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/description_full_screen"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/scrollView_upload"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <include
+                android:id="@+id/layout_upload_advertisement"
+                layout="@layout/layout_advertisement_prototype" />
+
+            <TextView
+                android:id="@+id/textView_date_to_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_upload_advertisement"
+                android:layout_marginTop="16dp"
+                android:onClick="onSelectDateClicked"
+                android:text="@string/hint_select_date"
+                app:drawableStartCompat="@drawable/ic_date_picker" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_date_to_post"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="48dp"
+                android:onClick="onUploadClicked"
+                android:text="@string/button_upload" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

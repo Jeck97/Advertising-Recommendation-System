@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tabs_title">
+        <item>All</item>
+        <item>Activated</item>
+        <item>Expired</item>
+        <item>Pending</item>
+        <item>Rejected</item>
+    </string-array>
+
+    <string-array name="advertisement_categories">
+        <item>Food</item>
+        <item>Beverage</item>
+        <item>Health</item>
+        <item>Beauty</item>
+        <item>Grocery</item>
+        <item>Pet</item>
+        <item>Home</item>
+        <item>Living</item>
+        <item>Fashion</item>
+        <item>Computer</item>
+        <item>Accessory</item>
+        <item>Baby</item>
+        <item>Sport</item>
+        <item>Entertainment</item>
+        <item>Automotive</item>
+        <item>Travel</item>
+        <item>Education</item>
+        <item>Phone</item>
+        <item>Gym</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="statistic_date_types">
+        <item>Day</item>
+        <item>Month</item>
+        <item>Year</item>
+        <item>Period</item>
+    </string-array>
+
+</resources>

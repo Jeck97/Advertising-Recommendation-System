@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="advertisement_categories">
+        <item>Food</item>
+        <item>Beverage</item>
+        <item>Health</item>
+        <item>Beauty</item>
+        <item>Grocery</item>
+        <item>Pet</item>
+        <item>Home</item>
+        <item>Living</item>
+        <item>Fashion</item>
+        <item>Computer</item>
+        <item>Accessory</item>
+        <item>Baby</item>
+        <item>Sport</item>
+        <item>Entertainment</item>
+        <item>Automotive</item>
+        <item>Travel</item>
+        <item>Education</item>
+        <item>Phone</item>
+        <item>Gym</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="sorting_types">
+        <item>Posted Date</item>
+        <item>Distance</item>
+        <item>Number of Likes</item>
+    </string-array>
+</resources>

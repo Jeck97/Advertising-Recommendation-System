@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=B9:F2:03:3F:5E:9F:41:D5:C5:EC:E1:C9:DC:38:4B:D3:22:07:D0:4F%3Bcom.workshop2.advertisingrecommendationsystem
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.workshop2.advertisingrecommendationsystem
+
+    SHA-1 certificate fingerprint:
+    B9:F2:03:3F:5E:9F:41:D5:C5:EC:E1:C9:DC:38:4B:D3:22:07:D0:4F
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCivCTw4ayD1q4UG2Qvm6dYdFKUkS39PVA</string>
+</resources>

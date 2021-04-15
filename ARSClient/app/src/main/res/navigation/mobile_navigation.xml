@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_advertisement">
+
+    <fragment
+        android:id="@+id/navigation_advertisement"
+        android:name="com.utem.ftmk.ws2.arsclient.ui.main.advertisement.AdvertisementFragment"
+        android:label="@string/bottom_navigation_advertisement"
+        tools:layout="@layout/fragment_advertisement" />
+
+    <fragment
+        android:id="@+id/navigation_statistic"
+        android:name="com.utem.ftmk.ws2.arsclient.ui.main.statistic.StatisticFragment"
+        android:label="@string/bottom_navigation_statistic"
+        tools:layout="@layout/fragment_statistic" />
+
+    <fragment
+        android:id="@+id/navigation_subscription"
+        android:name="com.utem.ftmk.ws2.arsclient.ui.main.subscription.SubscriptionFragment"
+        android:label="@string/bottom_navigation_subscription"
+        tools:layout="@layout/fragment_subscription" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.utem.ftmk.ws2.arsclient.ui.main.profile.ProfileFragment"
+        android:label="@string/bottom_navigation_subscription"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.profile.ProfileEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                app:cardCornerRadius="80dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView_profile_edit_logo"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/description_client_logo"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_profile" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/description_edit_logo_button"
+                android:onClick="onEditLogoClicked"
+                android:src="@drawable/ic_edit"
+                android:translationX="-10dp"
+                app:fabSize="mini"
+                app:layout_anchor="@id/imageView_profile_edit_logo"
+                app:layout_anchorGravity="end|bottom" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/textInputLayout_style">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_profile_edit_store_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/hint_store_name"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/textInputLayout_style">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_profile_edit_store_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|start"
+                android:hint="@string/hint_store_description"
+                android:lines="5"
+                android:singleLine="false" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView_profile_edit_store_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:drawablePadding="8dp"
+            android:text="@string/hint_select_location"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:onClick="onSelectLocationClicked"
+            app:drawableStartCompat="@drawable/ic_location" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:onClick="onSaveClicked"
+            android:text="@string/button_save" />
+
+    </LinearLayout>
+
+</ScrollView>
